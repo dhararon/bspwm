@@ -2,19 +2,19 @@
 
 ## Prerequisites
 
-[ ] bspwm
-[ ] dunst
-[ ] kitty terminal
-[ ] mpv
-[ ] nvim
-[ ] picom
-[ ] polybar
-[ ] rofi
-[ ] sxhkd
-[ ] zathura
-[ ] curl
-[ ] playerctl
-[ ] caffeine 
+- [ ] bspwm
+- [ ] dunst
+- [ ] kitty terminal
+- [ ] mpv
+- [ ] nvim
+- [ ] picom
+- [ ] polybar
+- [ ] rofi
+- [ ] sxhkd
+- [ ] zathura
+- [ ] curl
+- [ ] playerctl
+- [ ] caffeine 
 
 ### Install dependencies 
 
@@ -53,4 +53,25 @@ echo 'kitty.desktop' > ~/.config/xdg-terminals.list
 For enable the power menu please add this plugin to rofi
 https://github.com/jluttine/rofi-power-menu
 
+## NeoVim shortcuts
 
+### Nav Tab
+```
+previous tab: [b
+next tab: ]b
+Horizontal split: \
+Vertical split: |
+Up window: ctrl + k
+Down window: ctrl + j
+Left window: ctrl + h
+Right windor: ctrl + l
+Resize up, down, left, right: ctrl + UP,DOWN,LEFT,RIGHT arrows
+
+```
+
+## Kitty Terminal
+
+```
+ctrl + shift + Enter: Split terminal in same tab
+ctrl + shift + r: Resize windows inside layouts
+```
