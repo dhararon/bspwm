@@ -2,23 +2,29 @@
 
 ## Prerequisites
 
-- bspwm
-- dunst
-- kitty terminal
-- mpv
-- nvim
-- picom
-- polybar
-- rofi
-- sxhkd
-- zathura
+[ ] bspwm
+[ ] dunst
+[ ] kitty terminal
+[ ] mpv
+[ ] nvim
+[ ] picom
+[ ] polybar
+[ ] rofi
+[ ] sxhkd
+[ ] zathura
+[ ] curl
+[ ] playerctl
+[ ] caffeine 
+
+### Install dependencies 
 
 ```bash
 sudo apt install bspwm dunst mpv nvim picom polybar rofi sxhkd zathura curl playerctl caffeine
 ```
 
-Just kitty terminal must be installed from:
+### Kitty Terminal Installation
 
+Run the next command:
 
 ```bash
 curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
@@ -41,10 +47,10 @@ sed -i "s|Exec=kitty|Exec=$(readlink -f ~)/.local/kitty.app/bin/kitty|g" ~/.loca
 # Make xdg-terminal-exec (and hence desktop environments that support it use kitty)
 echo 'kitty.desktop' > ~/.config/xdg-terminals.list
 ```
+
+### Rofi addons
+
 For enable the power menu please add this plugin to rofi
-
 https://github.com/jluttine/rofi-power-menu
-
-
 
 
